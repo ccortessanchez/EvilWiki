@@ -21,6 +21,14 @@ class SuperVillainTests: XCTestCase {
         super.tearDown()
     }
     
+    class WeaponSpy: MegaWeapon {
+        var fireWasCalled = false
+        
+        func fire() {
+            fireWasCalled = true
+        }
+    }
+    
     func testDescriptionIsTitleSpaceName() {
         //Given
         let sut = SuperVillain.init(title: "Dr.", name: "Octopus", weapon: nil)
@@ -42,5 +50,17 @@ class SuperVillainTests: XCTestCase {
         //Then
         XCTAssertEqual("Dr.", sut.title)
         XCTAssertEqual("Octopus", sut.name)
+    }
+    
+    func testAttackFiresWeapon() {
+        //Given
+        let weapon = WeaponSpy()
+        let sut = SuperVillain.init(title: "Dr.", name: "Octopus", weapon: weapon)
+        
+        //Then
+        sut.attack()
+        
+        //When
+        XCTAssertTrue(weapon.fireWasCalled)
     }
 }
