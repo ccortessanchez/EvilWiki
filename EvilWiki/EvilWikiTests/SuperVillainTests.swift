@@ -56,7 +56,7 @@ class SuperVillainTests: XCTestCase {
     
     func testAttackFiresWeapon() {
         //Given
-        let sut = SuperVillain.main(weapon: weapon)
+        //let sut = SuperVillain.main(weapon: weapon)
         
         //Then
         sut.attack()
