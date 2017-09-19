@@ -12,8 +12,10 @@
 		0A04D5F61F7111DC00FBE773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04D5F41F7111DC00FBE773 /* Main.storyboard */; };
 		0A04D5F81F7111DC00FBE773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A04D5F71F7111DC00FBE773 /* Assets.xcassets */; };
 		0A04D5FB1F7111DC00FBE773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04D5F91F7111DC00FBE773 /* LaunchScreen.storyboard */; };
-		0A04D6061F7111DD00FBE773 /* EvilWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6051F7111DD00FBE773 /* EvilWikiTests.swift */; };
 		0A04D6111F7111DD00FBE773 /* EvilWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6101F7111DD00FBE773 /* EvilWikiUITests.swift */; };
+		0A04D6231F71136600FBE773 /* MegaWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6221F71136600FBE773 /* MegaWeapon.swift */; };
+		0A04D6251F71137A00FBE773 /* SuperVillain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6241F71137A00FBE773 /* SuperVillain.swift */; };
+		0A04D6271F7116A400FBE773 /* SuperVillainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6261F7116A400FBE773 /* SuperVillainTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +44,13 @@
 		0A04D5FA1F7111DC00FBE773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A04D5FC1F7111DC00FBE773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A04D6011F7111DD00FBE773 /* EvilWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A04D6051F7111DD00FBE773 /* EvilWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvilWikiTests.swift; sourceTree = "<group>"; };
 		0A04D6071F7111DD00FBE773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A04D60C1F7111DD00FBE773 /* EvilWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A04D6101F7111DD00FBE773 /* EvilWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvilWikiUITests.swift; sourceTree = "<group>"; };
 		0A04D6121F7111DD00FBE773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A04D6221F71136600FBE773 /* MegaWeapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MegaWeapon.swift; sourceTree = "<group>"; };
+		0A04D6241F71137A00FBE773 /* SuperVillain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVillain.swift; sourceTree = "<group>"; };
+		0A04D6261F7116A400FBE773 /* SuperVillainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVillainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,10 @@
 		0A04D5EF1F7111DC00FBE773 /* EvilWiki */ = {
 			isa = PBXGroup;
 			children = (
-				0A04D5F01F7111DC00FBE773 /* AppDelegate.swift */,
-				0A04D5F21F7111DC00FBE773 /* ViewController.swift */,
-				0A04D5F41F7111DC00FBE773 /* Main.storyboard */,
-				0A04D5F71F7111DC00FBE773 /* Assets.xcassets */,
-				0A04D5F91F7111DC00FBE773 /* LaunchScreen.storyboard */,
-				0A04D5FC1F7111DC00FBE773 /* Info.plist */,
+				0A04D61E1F7112F800FBE773 /* Application */,
+				0A04D6211F71131C00FBE773 /* Model */,
+				0A04D6201F71131600FBE773 /* Presenter */,
+				0A04D61F1F71130A00FBE773 /* View */,
 			);
 			path = EvilWiki;
 			sourceTree = "<group>";
@@ -110,8 +112,8 @@
 		0A04D6041F7111DD00FBE773 /* EvilWikiTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A04D6051F7111DD00FBE773 /* EvilWikiTests.swift */,
 				0A04D6071F7111DD00FBE773 /* Info.plist */,
+				0A04D6261F7116A400FBE773 /* SuperVillainTests.swift */,
 			);
 			path = EvilWikiTests;
 			sourceTree = "<group>";
@@ -123,6 +125,42 @@
 				0A04D6121F7111DD00FBE773 /* Info.plist */,
 			);
 			path = EvilWikiUITests;
+			sourceTree = "<group>";
+		};
+		0A04D61E1F7112F800FBE773 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0A04D5F01F7111DC00FBE773 /* AppDelegate.swift */,
+				0A04D5F21F7111DC00FBE773 /* ViewController.swift */,
+				0A04D5F41F7111DC00FBE773 /* Main.storyboard */,
+				0A04D5F71F7111DC00FBE773 /* Assets.xcassets */,
+				0A04D5F91F7111DC00FBE773 /* LaunchScreen.storyboard */,
+				0A04D5FC1F7111DC00FBE773 /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		0A04D61F1F71130A00FBE773 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0A04D6201F71131600FBE773 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		0A04D6211F71131C00FBE773 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A04D6221F71136600FBE773 /* MegaWeapon.swift */,
+				0A04D6241F71137A00FBE773 /* SuperVillain.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +302,8 @@
 			files = (
 				0A04D5F31F7111DC00FBE773 /* ViewController.swift in Sources */,
 				0A04D5F11F7111DC00FBE773 /* AppDelegate.swift in Sources */,
+				0A04D6231F71136600FBE773 /* MegaWeapon.swift in Sources */,
+				0A04D6251F71137A00FBE773 /* SuperVillain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A04D6061F7111DD00FBE773 /* EvilWikiTests.swift in Sources */,
+				0A04D6271F7116A400FBE773 /* SuperVillainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

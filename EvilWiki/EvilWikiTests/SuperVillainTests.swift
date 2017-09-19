@@ -1,15 +1,14 @@
 //
-//  EvilWikiTests.swift
-//  EvilWikiTests
+//  SuperVillainTests.swift
+//  EvilWiki
 //
 //  Created by Carlos Cortés Sánchez on 19/09/2017.
 //  Copyright © 2017 Carlos Cortés Sánchez. All rights reserved.
 //
 
 import XCTest
-@testable import EvilWiki
 
-class EvilWikiTests: XCTestCase {
+class SuperVillainTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
