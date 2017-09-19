@@ -28,7 +28,7 @@
         <!--SuperVillain-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="SuperVillain" customClass="SuperVillainEditViewController" customModule="EvilWiki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SuperVillainEditViewController" id="BYZ-38-t0r" userLabel="SuperVillain" customClass="SuperVillainEditViewController" customModule="EvilWiki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
