@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import EvilWiki
 
 class SuperVillainTests: XCTestCase {
     
@@ -20,9 +21,15 @@ class SuperVillainTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testDescriptionIsTitleSpaceName() {
+        //Given
+        let sut = SuperVillain.init(title: "Dr.", name: "Octopus", weapon: nil)
+        
+        //When
+        let description = sut.description
+        
+        //Then
+        XCTAssertEqual("Dr. Octopus", description)
     }
     
     func testPerformanceExample() {
