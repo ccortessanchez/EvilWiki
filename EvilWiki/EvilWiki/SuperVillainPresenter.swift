@@ -10,7 +10,9 @@ import Foundation
 
 class SuperVillainPresenter{
     
+    var view: SuperVillainView!
+    
     func viewReady() {
-        
+        view.enableSaveButton(enabled: false)
     }
 }

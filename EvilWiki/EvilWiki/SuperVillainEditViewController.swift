@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SuperVillainEditViewController: UIViewController {
+class SuperVillainEditViewController: UIViewController, SuperVillainView {
     
     @IBOutlet weak var saveButton: UIBarButtonItem!
     var presenter: SuperVillainPresenter?
@@ -21,10 +21,14 @@ class SuperVillainEditViewController: UIViewController {
     }
     
     //MARK: Actions
-    @IBAction func save(_ sender: Any) {
+    @IBAction func save(_ sender: UIBarButtonItem) {
     }
     
-    @IBAction func cancel(_ sender: Any) {
+    func enableSaveButton(enabled: Bool) {
+        saveButton.isEnabled = enabled
+    }
+    
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
     }
 }
 
