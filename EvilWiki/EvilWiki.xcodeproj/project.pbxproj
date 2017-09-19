@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A04D5F11F7111DC00FBE773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D5F01F7111DC00FBE773 /* AppDelegate.swift */; };
+		0A04D5F31F7111DC00FBE773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D5F21F7111DC00FBE773 /* ViewController.swift */; };
+		0A04D5F61F7111DC00FBE773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04D5F41F7111DC00FBE773 /* Main.storyboard */; };
+		0A04D5F81F7111DC00FBE773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A04D5F71F7111DC00FBE773 /* Assets.xcassets */; };
+		0A04D5FB1F7111DC00FBE773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04D5F91F7111DC00FBE773 /* LaunchScreen.storyboard */; };
+		0A04D6061F7111DD00FBE773 /* EvilWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6051F7111DD00FBE773 /* EvilWikiTests.swift */; };
+		0A04D6111F7111DD00FBE773 /* EvilWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04D6101F7111DD00FBE773 /* EvilWikiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A04D6021F7111DD00FBE773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A04D5E51F7111DC00FBE773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A04D5EC1F7111DC00FBE773;
+			remoteInfo = EvilWiki;
+		};
+		0A04D60D1F7111DD00FBE773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A04D5E51F7111DC00FBE773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A04D5EC1F7111DC00FBE773;
+			remoteInfo = EvilWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A04D5ED1F7111DC00FBE773 /* EvilWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A04D5F01F7111DC00FBE773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A04D5F21F7111DC00FBE773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A04D5F51F7111DC00FBE773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A04D5F71F7111DC00FBE773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A04D5FA1F7111DC00FBE773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A04D5FC1F7111DC00FBE773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A04D6011F7111DD00FBE773 /* EvilWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A04D6051F7111DD00FBE773 /* EvilWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvilWikiTests.swift; sourceTree = "<group>"; };
+		0A04D6071F7111DD00FBE773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A04D60C1F7111DD00FBE773 /* EvilWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A04D6101F7111DD00FBE773 /* EvilWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvilWikiUITests.swift; sourceTree = "<group>"; };
+		0A04D6121F7111DD00FBE773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A04D5EA1F7111DC00FBE773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04D5FE1F7111DD00FBE773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04D6091F7111DD00FBE773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A04D5E41F7111DC00FBE773 = {
+			isa = PBXGroup;
+			children = (
+				0A04D5EF1F7111DC00FBE773 /* EvilWiki */,
+				0A04D6041F7111DD00FBE773 /* EvilWikiTests */,
+				0A04D60F1F7111DD00FBE773 /* EvilWikiUITests */,
+				0A04D5EE1F7111DC00FBE773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A04D5EE1F7111DC00FBE773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A04D5ED1F7111DC00FBE773 /* EvilWiki.app */,
+				0A04D6011F7111DD00FBE773 /* EvilWikiTests.xctest */,
+				0A04D60C1F7111DD00FBE773 /* EvilWikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A04D5EF1F7111DC00FBE773 /* EvilWiki */ = {
+			isa = PBXGroup;
+			children = (
+				0A04D5F01F7111DC00FBE773 /* AppDelegate.swift */,
+				0A04D5F21F7111DC00FBE773 /* ViewController.swift */,
+				0A04D5F41F7111DC00FBE773 /* Main.storyboard */,
+				0A04D5F71F7111DC00FBE773 /* Assets.xcassets */,
+				0A04D5F91F7111DC00FBE773 /* LaunchScreen.storyboard */,
+				0A04D5FC1F7111DC00FBE773 /* Info.plist */,
+			);
+			path = EvilWiki;
+			sourceTree = "<group>";
+		};
+		0A04D6041F7111DD00FBE773 /* EvilWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A04D6051F7111DD00FBE773 /* EvilWikiTests.swift */,
+				0A04D6071F7111DD00FBE773 /* Info.plist */,
+			);
+			path = EvilWikiTests;
+			sourceTree = "<group>";
+		};
+		0A04D60F1F7111DD00FBE773 /* EvilWikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A04D6101F7111DD00FBE773 /* EvilWikiUITests.swift */,
+				0A04D6121F7111DD00FBE773 /* Info.plist */,
+			);
+			path = EvilWikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A04D5EC1F7111DC00FBE773 /* EvilWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04D6151F7111DD00FBE773 /* Build configuration list for PBXNativeTarget "EvilWiki" */;
+			buildPhases = (
+				0A04D5E91F7111DC00FBE773 /* Sources */,
+				0A04D5EA1F7111DC00FBE773 /* Frameworks */,
+				0A04D5EB1F7111DC00FBE773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvilWiki;
+			productName = EvilWiki;
+			productReference = 0A04D5ED1F7111DC00FBE773 /* EvilWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A04D6001F7111DD00FBE773 /* EvilWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04D6181F7111DD00FBE773 /* Build configuration list for PBXNativeTarget "EvilWikiTests" */;
+			buildPhases = (
+				0A04D5FD1F7111DD00FBE773 /* Sources */,
+				0A04D5FE1F7111DD00FBE773 /* Frameworks */,
+				0A04D5FF1F7111DD00FBE773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A04D6031F7111DD00FBE773 /* PBXTargetDependency */,
+			);
+			name = EvilWikiTests;
+			productName = EvilWikiTests;
+			productReference = 0A04D6011F7111DD00FBE773 /* EvilWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A04D60B1F7111DD00FBE773 /* EvilWikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04D61B1F7111DD00FBE773 /* Build configuration list for PBXNativeTarget "EvilWikiUITests" */;
+			buildPhases = (
+				0A04D6081F7111DD00FBE773 /* Sources */,
+				0A04D6091F7111DD00FBE773 /* Frameworks */,
+				0A04D60A1F7111DD00FBE773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A04D60E1F7111DD00FBE773 /* PBXTargetDependency */,
+			);
+			name = EvilWikiUITests;
+			productName = EvilWikiUITests;
+			productReference = 0A04D60C1F7111DD00FBE773 /* EvilWikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A04D5E51F7111DC00FBE773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Carlos Cortés Sánchez";
+				TargetAttributes = {
+					0A04D5EC1F7111DC00FBE773 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W42R7YVF79;
+						ProvisioningStyle = Automatic;
+					};
+					0A04D6001F7111DD00FBE773 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W42R7YVF79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A04D5EC1F7111DC00FBE773;
+					};
+					0A04D60B1F7111DD00FBE773 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W42R7YVF79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A04D5EC1F7111DC00FBE773;
+					};
+				};
+			};
+			buildConfigurationList = 0A04D5E81F7111DC00FBE773 /* Build configuration list for PBXProject "EvilWiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A04D5E41F7111DC00FBE773;
+			productRefGroup = 0A04D5EE1F7111DC00FBE773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A04D5EC1F7111DC00FBE773 /* EvilWiki */,
+				0A04D6001F7111DD00FBE773 /* EvilWikiTests */,
+				0A04D60B1F7111DD00FBE773 /* EvilWikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A04D5EB1F7111DC00FBE773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04D5FB1F7111DC00FBE773 /* LaunchScreen.storyboard in Resources */,
+				0A04D5F81F7111DC00FBE773 /* Assets.xcassets in Resources */,
+				0A04D5F61F7111DC00FBE773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04D5FF1F7111DD00FBE773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04D60A1F7111DD00FBE773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A04D5E91F7111DC00FBE773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04D5F31F7111DC00FBE773 /* ViewController.swift in Sources */,
+				0A04D5F11F7111DC00FBE773 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04D5FD1F7111DD00FBE773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04D6061F7111DD00FBE773 /* EvilWikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04D6081F7111DD00FBE773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04D6111F7111DD00FBE773 /* EvilWikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A04D6031F7111DD00FBE773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A04D5EC1F7111DC00FBE773 /* EvilWiki */;
+			targetProxy = 0A04D6021F7111DD00FBE773 /* PBXContainerItemProxy */;
+		};
+		0A04D60E1F7111DD00FBE773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A04D5EC1F7111DC00FBE773 /* EvilWiki */;
+			targetProxy = 0A04D60D1F7111DD00FBE773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A04D5F41F7111DC00FBE773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A04D5F51F7111DC00FBE773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A04D5F91F7111DC00FBE773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A04D5FA1F7111DC00FBE773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A04D6131F7111DD00FBE773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A04D6141F7111DD00FBE773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A04D6161F7111DD00FBE773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W42R7YVF79;
+				INFOPLIST_FILE = EvilWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmv.EvilWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A04D6171F7111DD00FBE773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W42R7YVF79;
+				INFOPLIST_FILE = EvilWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmv.EvilWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0A04D6191F7111DD00FBE773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W42R7YVF79;
+				INFOPLIST_FILE = EvilWikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmv.EvilWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvilWiki.app/EvilWiki";
+			};
+			name = Debug;
+		};
+		0A04D61A1F7111DD00FBE773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W42R7YVF79;
+				INFOPLIST_FILE = EvilWikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmv.EvilWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvilWiki.app/EvilWiki";
+			};
+			name = Release;
+		};
+		0A04D61C1F7111DD00FBE773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W42R7YVF79;
+				INFOPLIST_FILE = EvilWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmv.EvilWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EvilWiki;
+			};
+			name = Debug;
+		};
+		0A04D61D1F7111DD00FBE773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W42R7YVF79;
+				INFOPLIST_FILE = EvilWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmv.EvilWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EvilWiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A04D5E81F7111DC00FBE773 /* Build configuration list for PBXProject "EvilWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04D6131F7111DD00FBE773 /* Debug */,
+				0A04D6141F7111DD00FBE773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A04D6151F7111DD00FBE773 /* Build configuration list for PBXNativeTarget "EvilWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04D6161F7111DD00FBE773 /* Debug */,
+				0A04D6171F7111DD00FBE773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A04D6181F7111DD00FBE773 /* Build configuration list for PBXNativeTarget "EvilWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04D6191F7111DD00FBE773 /* Debug */,
+				0A04D61A1F7111DD00FBE773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A04D61B1F7111DD00FBE773 /* Build configuration list for PBXNativeTarget "EvilWikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04D61C1F7111DD00FBE773 /* Debug */,
+				0A04D61D1F7111DD00FBE773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A04D5E51F7111DC00FBE773 /* Project object */;
+}
