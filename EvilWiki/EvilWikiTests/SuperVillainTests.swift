@@ -33,6 +33,10 @@ class SuperVillainTests: XCTestCase {
         func fire() {
             fireWasCalled = true
         }
+        
+        func verify() {
+            XCTAssertTrue(fireWasCalled)
+        }
     }
     
     func testDescriptionIsTitleSpaceName() {
@@ -64,6 +68,6 @@ class SuperVillainTests: XCTestCase {
         sut.attack()
         
         //When
-        XCTAssertTrue(weapon.fireWasCalled)
+        weapon.verify()
     }
 }
