@@ -11,6 +11,10 @@ import XCTest
 
 class SuperVillainTests: XCTestCase {
     
+    let mainTitle = "Dr."
+    let mainName = "Octopus"
+    let mainFullName = "Dr. Octopus"
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -31,31 +35,31 @@ class SuperVillainTests: XCTestCase {
     
     func testDescriptionIsTitleSpaceName() {
         //Given
-        let sut = SuperVillain.init(title: "Dr.", name: "Octopus", weapon: nil)
+        let sut = SuperVillain(title: mainTitle, name: mainName, weapon: nil)
         
         //When
         let description = sut.description
         
         //Then
-        XCTAssertEqual("Dr. Octopus", description)
+        XCTAssertEqual(mainFullName, description)
     }
     
     func testNameAndTitleAreExtractedFromFullName() {
         //Given
-        let sut = SuperVillain.init(fullName: "Dr. Octopus")
+        let sut = SuperVillain(fullName: mainFullName)
         
         //When
         
         
         //Then
-        XCTAssertEqual("Dr.", sut.title)
-        XCTAssertEqual("Octopus", sut.name)
+        XCTAssertEqual(mainTitle, sut.title)
+        XCTAssertEqual(mainName, sut.name)
     }
     
     func testAttackFiresWeapon() {
         //Given
         let weapon = WeaponSpy()
-        let sut = SuperVillain.init(title: "Dr.", name: "Octopus", weapon: weapon)
+        let sut = SuperVillain(title: mainTitle, name: mainName, weapon: weapon)
         
         //Then
         sut.attack()
