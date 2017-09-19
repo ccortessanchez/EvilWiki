@@ -32,11 +32,15 @@ class SuperVillainTests: XCTestCase {
         XCTAssertEqual("Dr. Octopus", description)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testNameAndTitleAreExtractedFromFullName() {
+        //Given
+        let sut = SuperVillain.init(fullName: "Dr. Octopus")
+        
+        //When
+        
+        
+        //Then
+        XCTAssertEqual("Dr.", sut.title)
+        XCTAssertEqual("Octopus", sut.name)
     }
-    
 }
